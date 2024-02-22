@@ -6,7 +6,8 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 run = False
-
+    win.fill(0,255,255)
+    pygame.display.flip
     pygame.quit()
 
 if __name__ == '__main__':
