@@ -1,6 +1,8 @@
 import pygame,sys
-win = pygame.display.set_mode((900,500))
+
 def main():
+    pygame.init
+    win = pygame.display.set_mode((900,500))
     run = True
     while run:
         for event in pygame.event.get():
